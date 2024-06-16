@@ -1,0 +1,23 @@
+# first_list = [1, True, "jeden"]
+# print(first_list[0])
+# print(first_list[-1])
+# first_list[1] = False
+# print(first_list)
+numbers = [37, 21, -6, 18, 90, 99, 22.5, -0.5, 111, 99]
+print(numbers)
+numbers.append(12)
+print("Append 12:\n", numbers)
+numbers.pop()
+print("Pop:\n", numbers)
+numbers.pop(0)
+print("Pop:\n", numbers)
+numbers.insert(1, 12.12)
+print("Insert:\n", numbers)
+numbers.remove(99)
+print("Remove:\n", numbers)
+numbers.reverse()
+print("Reverse:\n", numbers)
+numbers.sort()
+print("Sort:\n", numbers)
+numbers.sort(reverse=True)
+print("Sort:\n", numbers)
